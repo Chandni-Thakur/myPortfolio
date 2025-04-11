@@ -27,6 +27,9 @@ export default function Navbar() {
             <a href="#about" className="hover:text-indigo-400 transition">About</a>
           </li>
           <li>
+          <a href="#education" className="hover:text-indigo-400">Education</a>
+          </li>
+          <li>
             <a href="#projects" className="hover:text-indigo-400 transition">Projects</a>
           </li>
           <li>

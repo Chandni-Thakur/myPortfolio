@@ -2,23 +2,22 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Certifications from "./components/Certifications";
+import Education from "./components/Education";
 
 export default function Home() {
   return (
     <main className="bg-gray-950 text-white">
       <Navbar />
 
-      <section id="home" className="flex items-center justify-center min-h-screen text-white">
-      <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-indigo-500">
-    <img
-      src="/profile.jpg" 
-      alt="Chandni Thakur"
-      className="w-full h-full object-cover"
-    />
-  
-  </div>
+      <section id="home" className="flex flex-col items-center justify-center min-h-screen text-white text-center px-4">
+      <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-indigo-500 mb-6">
+        <img
+          src="/profile.jpg"
+          alt="Chandni Thakur"
+          className="w-full h-full object-cover"
+        />
+      </div>
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
             Hi, I'm <span className="text-indigo-500">Chandni Thakur</span>
@@ -44,10 +43,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Add IDs for smooth scroll via Navbar */}
+      
       <section id="about">
         <About />
       </section>
+
+      <section id="education">
+      <Education />
+      </section>
+
 
       <section id="projects">
         <Projects />
@@ -60,7 +64,7 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
-      <Footer />
+     
     </main>
   );
 }
