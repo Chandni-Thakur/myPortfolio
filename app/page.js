@@ -4,6 +4,8 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Certifications from "./components/Certifications";
 import Education from "./components/Education";
+import Footer from "./components/Footer";
+
 
 export default function Home() {
   return (
@@ -64,6 +66,9 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
+
+      <Footer />
+
      
     </main>
   );
