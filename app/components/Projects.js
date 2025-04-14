@@ -8,12 +8,17 @@ export default function Projects() {
     {
       title: "MCP System",
       description: "Full Stack web app with MongoDB, Express, React, and Node.js for managing pickup partners.",
-      link: "#" // Update this with the actual GitHub or deployment link when ready
+      link: "#" 
+    },
+    {
+      title: "Quiz Web Application",
+      description: "An interactive quiz app built with HTML, CSS, and JavaScript for testing general knowledge.",
+      link: "https://github.com/Chandni-Thakur/Quiz-Web-Application"
     },
     {
       title: "Portfolio Website",
       description: "This modern personal portfolio built using Next.js and Tailwind CSS.",
-      link: "#" // Same here — replace when deployed or uploaded
+      link: "https://my-portfolio-chandni.vercel.app" // Replace with your actual deployed URL
     }
   ];
 
@@ -29,6 +34,7 @@ export default function Projects() {
               <a
                 href={project.link}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-indigo-500 hover:underline"
               >
                 View Project →
