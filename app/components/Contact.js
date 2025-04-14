@@ -10,7 +10,7 @@ export default function Contact() {
         </p>
         <div className="flex justify-center gap-6">
           <a
-            href="mailto:chandnithakur.job@gmail.com"
+            href="mailto:thakurchandni034@gmail.com"
             className="flex items-center gap-2 hover:text-indigo-500 transition"
           >
             <Mail /> Email
